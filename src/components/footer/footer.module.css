@@ -1,0 +1,61 @@
+.footer {
+	@apply bg-gray-900 text-gray-200;
+}
+.container {
+	width: 80%;
+	margin: auto;
+	display: block;
+	align-items: center;
+	@apply sm:flex justify-around pb-5;
+}
+
+.left {
+	width: 30vw;
+	margin: auto;
+	padding-top: 3rem;
+	display: none;
+}
+
+@media (min-width: 640px) {
+	.left {
+		display: block;
+	}
+}
+
+.para {
+	@apply text-sm pt-3 w-28;
+}
+
+.logo {
+	display: flex;
+	margin: 0;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+.logo img {
+	@apply h-8 w-8;
+}
+.text {
+	@apply text-3xl ml-2;
+	margin-top: -4px;
+}
+
+.right {
+	@apply flex;
+	margin-left: 5vw;
+}
+.list {
+	@apply w-full sm:pl-0 sm:p-10 sm:px-5 sm:w-max;
+}
+.item {
+	margin-left: 5vw;
+	@apply pb-2;
+}
+.item a {
+	width: 100%;
+}
+.head {
+	margin-left: 5vw;
+	font-weight: bold;
+	padding: 20px 0;
+}

@@ -1,0 +1,44 @@
+.nav {
+	@apply flex justify-between items-center p-4 bg-gray-400 text-gray-900 relative px-10 col-start-1 col-end-13;
+}
+.hide {
+	@apply hidden sm:flex;
+}
+.show {
+	@apply block text-right pr-3 mt-8 sm:m-0 sm:flex h-screen overflow-y-hidden;
+}
+
+.linkItem {
+	@apply px-3 p-1 my-8 sm:my-0 rounded mx-2;
+}
+
+.linkItem:hover {
+	@apply border-white;
+}
+.logo {
+	display: flex;
+	justify-self: flex-start;
+	align-self: flex-start;
+}
+.logo img {
+	@apply h-8 w-8;
+}
+.text {
+	@apply text-3xl ml-2;
+	margin-top: -4px;
+}
+.register {
+	@apply bg-green-600;
+}
+
+.register:hover {
+	@apply bg-blue-700 text-gray-900;
+}
+
+.logo {
+	@apply font-extrabold mx-4 pt-1 text-xl;
+}
+
+.hamburger {
+	@apply w-8 h-8 sm:hidden absolute top-4 right-8;
+}

@@ -1,0 +1,29 @@
+.cover {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	margin: 100px 0;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.imgDiv {
+	grid-column: 5/13;
+	grid-row: 1;
+	@apply border rounded-md shadow-lg;
+}
+
+.imgDiv img {
+	object-fit: cover;
+}
+.text {
+	grid-column: 3/8;
+	grid-row: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2vw;
+	padding: 20px;
+	margin: 0px;
+	font-weight: bold;
+	@apply bg-green-700 bg-opacity-80 text-gray-200 rounded-md sm:mt-28 md:my-20 lg:max-h-full text-sm lg:text-xl;
+}

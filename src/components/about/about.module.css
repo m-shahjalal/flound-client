@@ -1,0 +1,14 @@
+.bottom {
+	@apply bg-gray-300 p-10 rounded-lg mb-10;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.head {
+	@apply text-3xl font-bold mb-5 m-4;
+}
+.text {
+}
+.span {
+	@apply m-4 block;
+}
