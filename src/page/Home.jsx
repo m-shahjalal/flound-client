@@ -2,7 +2,10 @@ import Cover from '../components/cover/Cover';
 import List from '../components/list/List';
 import cover from '../images/cover.png';
 
+import { useSelector } from 'react-redux';
+
 const Home = () => {
+	const post = useSelector((state) => state.post);
 	return (
 		<>
 			<Cover
@@ -10,7 +13,7 @@ const Home = () => {
 					improve'
 				img={cover}
 			/>
-			<List title='Recent Posts...' />
+			<List posts={post} title='Recent Posts...' />
 		</>
 	);
 };

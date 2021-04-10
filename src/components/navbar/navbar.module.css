@@ -42,3 +42,11 @@
 .hamburger {
 	@apply w-8 h-8 sm:hidden absolute top-4 right-8;
 }
+
+.button {
+	@apply flex justify-center items-center;
+}
+
+.logout {
+	padding-right: 10px;
+}

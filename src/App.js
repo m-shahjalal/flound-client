@@ -15,6 +15,9 @@ import Create from './page/Create';
 function App() {
 	return (
 		<div className='app'>
+			<div className='worn'>
+				<h1>Under construction...</h1>
+			</div>
 			<Router>
 				<Navbar />
 				<div>

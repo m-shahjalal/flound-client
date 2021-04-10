@@ -17,3 +17,12 @@ html {
 	width: 100%;
 	margin: auto;
 }
+
+.worn h1 {
+	padding: 20px;
+	background-color: rgb(46, 46, 46);
+	color: rgb(255, 196, 0);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
